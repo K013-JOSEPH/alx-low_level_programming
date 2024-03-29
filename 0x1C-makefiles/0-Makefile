@@ -1,0 +1,3 @@
+all: main.c K013-JOSEPH.c
+	gcc main.c K013-JOSEPH.c -o holberton
+

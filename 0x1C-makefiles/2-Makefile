@@ -1,0 +1,7 @@
+CC = gcc
+SRC = main.c K013-JOSEPH.c
+OBJ = $(SRC:.c=.o)
+NAME = K013-JOSEPH
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
